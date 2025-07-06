@@ -63,9 +63,10 @@
 
         .Ban_x
         {
-            border: 2px solid rgb(173, 171, 171);
-            border-radius: 5px 5px 15px;
-            border-bottom: 15px;
+            border: 3px solid rgb(173, 171, 171);
+            border-radius: 15px;
+            box-shadow: 25px 25px 25px 25px rgb(203, 202, 202);
+
             margin: 10px;
             padding: 20px 20px;
             text-align: center;
@@ -82,7 +83,9 @@
 
         #banner_2
         {
-            display: flex
+            display: flex;
+            text-align: justify;
+            padding: 5px;
         }
 
         #box
@@ -114,6 +117,7 @@
             border-radius: 10px 10px 20px;
             margin: 20px 20px 20px 20px;
             display: flex;
+            text-align: center;
         }
         .ime
         {
@@ -127,6 +131,26 @@
             font-size: 35px;
             font-weight: bolder;
             color: yellowgreen;
+        }
+
+        .btan
+        {
+            border: 1.2px solid ghostwhite;
+            border-radius: 8px;
+            padding: 16px 10px;
+            background-color: yellowgreen;
+            color: rgb(3, 107, 26);
+            text-align: center;
+            font-size: 16.5px;
+            font-weight: bolder;
+            cursor: grab;
+
+        }
+
+        .btan :hover
+        {
+            background-color: whitesmoke;
+            cursor: grabbing;
         }
 
     </style>
@@ -170,6 +194,9 @@
             </div>
 
             <div id="im">
+                <div>
+                    <button class="btan">Join</button>
+                </div>
                 <div class="ime">
                     <h3>Only C++ Real</h3>
                 </div>
